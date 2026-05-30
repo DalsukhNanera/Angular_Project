@@ -6,6 +6,8 @@ import { EMployeeServiceService } from 'src/Services/employee-service.service';
   templateUrl: './employee-dashboard.component.html',
   styleUrls: ['./employee-dashboard.component.css']
 })
+
+
 export class EmployeeDashboardComponent {
 
 
@@ -21,8 +23,9 @@ export class EmployeeDashboardComponent {
      this.empservice.ShowEmployee().subscribe(
 
       (res)=>{
-        console.log("Resulet is came");
-         console.log(res);
+       // console.log("Resulet is came");
+         //console.log(res);
+         console.log("this change is for testing purpose only okay.");
       }
      )
     }
