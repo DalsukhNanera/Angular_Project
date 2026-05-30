@@ -23,9 +23,10 @@ export class EmployeeDashboardComponent {
      this.empservice.ShowEmployee().subscribe(
 
       (res)=>{
-       // console.log("Resulet is came");
-         //console.log(res);
-         console.log("this change is for testing purpose only okay.");
+        console.log("Resulet is came");
+         console.log(res);
+         alert("Suketu");
+         console.log("ok")
       }
      )
     }
