@@ -26,7 +26,9 @@ export class EmployeeDashboardComponent {
         console.log("Resulet is came");
          console.log(res);
          alert("Suketu");
-         console.log("ok")
+        // console.log("ok")
+        //nothing from my side 
+        console.log("this is ok but not from my side");
       }
      )
     }
