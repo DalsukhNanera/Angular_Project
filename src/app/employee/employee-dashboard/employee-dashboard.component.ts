@@ -25,8 +25,10 @@ export class EmployeeDashboardComponent {
       (res)=>{
         console.log("Resulet is came");
          console.log(res);
-         alert("Suketu");
-         console.log("ok")
+         //alert("Suketu");
+         console.log("this is conflict from dalsukh");
+        // console.log("ok")
+        alert("nothing from my side");
       }
      )
     }
